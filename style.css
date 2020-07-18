@@ -1,0 +1,40 @@
+html,
+body {
+	margin: 0;
+	padding: 0;
+}
+.mainta{
+	width: 100%;
+	border-collapse: collapse;
+	padding: 0;
+}
+tr{
+	color: white;
+
+}
+th{
+	width: 5%;
+	text-align: center;
+	background: red;
+	padding: 0px 5px;
+}
+.mainth{
+	width: 75%;
+	text-align: left;
+}
+.trend{
+	width: 10%;
+}
+.mainta a{
+	color: white;
+	text-decoration: none;
+}
+.mainth a{
+	text-decoration: underline;
+}
+.maintr .trclick:hover a{
+	color: red;
+}
+.maintr .trclick:hover{
+	background: white;
+}
